@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+
+    display:flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 27.67rem;
+    height: 22.85rem;
+
+}
+
+section {
+    background-color: hsl(244, 38%, 16%);
+    width: 27.67rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Red Hat Display', sans-serif;
+    width: 21rem;
+    font-size: xx-large;
+    margin: 2.18rem 0 0.62rem 0;
+
+}
+
+h2 {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.25rem;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+}
+
+p.introduction {
+    width: 22rem;
+    line-height: 1.5;
+    margin-bottom: 2em;
+
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:22rem;
+    line-height: 0.5rem;
+}
+
+.companies > p {
+    font-size: 0.62rem;
+}
+
+.templates > p {
+    font-size: 0.62rem;
+}
+
+.queries > p {
+    font-size: 0.62rem;
+}
+
+footer {
+    margin-top: 5rem;
+    color: white;
+}
